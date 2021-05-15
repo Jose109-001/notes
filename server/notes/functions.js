@@ -4,8 +4,7 @@ function read () {
     return new Promise((resolve, reject) => {
         // Read file
         fs.readFile('./notes.json', 'utf-8', function(err, data) {
-            console.log('data', data);
-            resolve(JSON.parse(data));
+            resolve(JSON.parse(data || '[]'));
         })   
     });
 }
@@ -17,7 +16,8 @@ function write (newNote) {
 
         // Add note id
         const [lastNote] = notes.slice(-1);
-        newNote.id = String(Number(lastNote.id) + 1);
+        const lastID = lastNote ? Number(lastNote.id) : 0;
+        newNote.id = String(lastID + 1);
 
         // Push note into notes list
         notes.push(newNote);
