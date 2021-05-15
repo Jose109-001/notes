@@ -32,7 +32,7 @@ app.delete("/api/notes/:id", (req, res) => {
   res.json({ id });
 });
 
-const port = 80;
+const port = process.env.PORT || 80;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
