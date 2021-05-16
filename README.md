@@ -1,9 +1,8 @@
-![Picture 1](https://user-images.githubusercontent.com/77666204/118396142-6f5fe200-b691-11eb-9654-5533be492a51.png)
-![Picture 2](https://user-images.githubusercontent.com/77666204/118396144-71c23c00-b691-11eb-8d74-8af462fc54c1.png)
-![Picture 3](https://user-images.githubusercontent.com/77666204/118396145-72f36900-b691-11eb-98b7-61f9480b4ba2.png)
-# Heroku APP: https://assignment-notes.herokuapp.com/
+
 
 # 11 Express.js: Note Taker
+
+# Heroku APP: https://assignment-notes.herokuapp.com/
 
 ## Your Task
 
@@ -44,9 +43,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 The following images show the web application's appearance and functionality: 
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
+![Picture 1](https://user-images.githubusercontent.com/77666204/118396142-6f5fe200-b691-11eb-9654-5533be492a51.png)
+![Picture 2](https://user-images.githubusercontent.com/77666204/118396144-71c23c00-b691-11eb-8d74-8af462fc54c1.png)
+![Picture 3](https://user-images.githubusercontent.com/77666204/118396145-72f36900-b691-11eb-98b7-61f9480b4ba2.png)
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
+
 
 
 ## Getting Started
